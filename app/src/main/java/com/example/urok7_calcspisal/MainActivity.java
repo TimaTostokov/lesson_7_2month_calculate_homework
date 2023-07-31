@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.input);
 
+
         btn_zero.setOnClickListener(view -> {
             onNumberClick(view);
         });

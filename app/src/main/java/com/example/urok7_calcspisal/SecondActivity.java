@@ -22,6 +22,15 @@ public class SecondActivity extends AppCompatActivity {
         text_CP.setText(open);
 
         MaterialButton btn_destroy = findViewById(R.id.btn_destroy);
-        btn_destroy.setOnClickListener(v -> finish());
+        btn_destroy.setOnClickListener(v ->
+                finishAffinity()
+        );
+
     }
+//
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//        finishAffinity();
+//    }
 }
